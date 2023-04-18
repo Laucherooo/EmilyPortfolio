@@ -25,7 +25,7 @@ const Portfolio = () => {
       img: IMG2,
       description:
         "A website was built social media like which detected cyberbullying words and warned users",
-      technologies: "Python | HTML | Djangle | SQL",
+      technologies: "Python | HTML | Django | SQL",
     },
     {
       id: 3,
