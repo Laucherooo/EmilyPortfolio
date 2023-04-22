@@ -3,9 +3,10 @@ import "./portfolio.css";
 import IMG1 from "../../assets/Emoji Project.png";
 import IMG2 from "../../assets/CyberBullying Project.png";
 import IMG3 from "../../assets/UserExperience Project.png";
-import IMG4 from "../../assets/UserExperience Project.png";
+import IMG4 from "../../assets/Battlecard Project.png";
 import IMG5 from "../../assets/Calculator Project.png";
 import IMG6 from "../../assets/Internet History Project.png";
+import IMG7 from "../../assets/Bookshop Project.png";
 import React from "react";
 
 //Portfolio function
@@ -37,15 +38,24 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      title: "Local Connection Card Game",
-      img: IMG4,
+      title: "Internet History Website",
+      img: IMG6,
       description: 
-        "A card battle game between a server and a client under local connection.",
-      technologies: "Python | TCP | Tkinter",
-      github: "https://github.com/Rasif-Taghizada/RubyCode-Blog",
+        "A website that introduced the history of the Internet.",
+      technologies: "Python | HTML | Flask | Azure | Docker",
+      github: "https://github.com/Laucherooo/IS601_project1",
     },
     {
       id: 5,
+      title: "Bookshop Management System",
+      img: IMG7,
+      description: 
+        "A bookshop management system which helps user to check and manage the book data inside the booklist file.",
+      technologies: "C++ | OOP",
+      github: "https://github.com/Laucherooo/Bookshop-Management-System",
+    },
+    {
+      id: 6,
       title: "Calculatior Website Which Accepts Uploaded CVS Files",
       img: IMG5,
       description: 
@@ -54,14 +64,14 @@ const Portfolio = () => {
       github: "https://github.com/Laucherooo/project3",
     },
     {
-      id: 6,
-      title: "Internet History Website",
-      img: IMG6,
+      id: 7,
+      title: "Local Connection Card Game",
+      img: IMG4,
       description: 
-        "A website that introduced the history of the Internet.",
-      technologies: "Python | HTML | Flask | Azure | Docker",
-      github: "https://github.com/Laucherooo/IS601_project1",
-    }
+        "A card battle game between a server and a client under local connection.",
+      technologies: "Python | TCP | Tkinter",
+      github: "https://github.com/Rasif-Taghizada/RubyCode-Blog",
+    },
   ];
 
   return (
